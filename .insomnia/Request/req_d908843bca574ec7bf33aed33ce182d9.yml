@@ -1,0 +1,31 @@
+_id: req_d908843bca574ec7bf33aed33ce182d9
+type: Request
+parentId: wrk_330b1a6663eb49e192d07924803d4660
+modified: 1716928551519
+created: 1716915885920
+url: https://d3erver.codabool.workers.dev/
+name: FOUNDRY download zip with token
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_38cf4dabadea4833b7276bf569dd46d8
+    name: token
+    value: token_goes_here
+    description: ""
+  - id: pair_7e52e39be56f41a59dfd077187aa38d3
+    name: module
+    value: terminal-v2.4.0
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1716915885920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

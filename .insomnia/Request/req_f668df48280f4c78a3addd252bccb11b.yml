@@ -1,0 +1,37 @@
+_id: req_f668df48280f4c78a3addd252bccb11b
+type: Request
+parentId: wrk_330b1a6663eb49e192d07924803d4660
+modified: 1716928534058
+created: 1716924507123
+url: https://d3erver.codabool.workers.dev/
+name: FOUNDRY create token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"api_key": "{{ _.FOUNDRY_SECRET }}",
+    	"user_id": "insomnia_test",
+    	"package_name": "terminal",
+    	"version": "2.4.0"
+    }
+parameters:
+  - id: pair_a3ae37e598d54d1c9fefb8dc70cd7e12
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1716924507123
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

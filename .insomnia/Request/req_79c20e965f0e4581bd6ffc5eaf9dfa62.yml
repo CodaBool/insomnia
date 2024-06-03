@@ -1,0 +1,35 @@
+_id: req_79c20e965f0e4581bd6ffc5eaf9dfa62
+type: Request
+parentId: wrk_330b1a6663eb49e192d07924803d4660
+modified: 1716928495464
+created: 1716925131409
+url: https://d3erver.codabool.workers.dev/manifest
+name: beta test
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9198a583d03340adbd4f0e3202744d66
+    name: secret
+    value: "{{ _.FORGE_SECRET }}"
+    description: ""
+  - id: pair_08eb7bdbdd644013b7c0d1736158febe
+    name: module
+    value: terminal
+    description: ""
+  - id: pair_3cdc2037bea244a09fa475b784a08958
+    name: beta
+    value: "true"
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1716925131409
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

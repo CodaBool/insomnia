@@ -1,0 +1,31 @@
+_id: req_7d494bd3669541e5a1af2e967a7308a7
+type: Request
+parentId: wrk_330b1a6663eb49e192d07924803d4660
+modified: 1716928508829
+created: 1716924906692
+url: https://d3erver.codabool.workers.dev/manifest
+name: /manifest FORGE manifest w/ secrets
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3e91c032f18f40bd93b4b6408f1b7b4c
+    name: secret
+    value: "{{ _.FORGE_SECRET }}"
+    description: ""
+  - id: pair_c09f9ddf1e0d476a97a928d38872e72c
+    name: module
+    value: terminal-v2.4.0
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1716924906692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_528aeb75a4ce485f81ff55d398ad2791
+type: Request
+parentId: wrk_330b1a6663eb49e192d07924803d4660
+modified: 1716928503569
+created: 1716925032725
+url: https://d3erver.codabool.workers.dev/latest
+name: /latest FORGE downloads latest module
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4c3fd73156464f13899e2db1889fdd24
+    name: secret
+    value: "{{ _.FORGE_SECRET }}"
+    description: ""
+  - id: pair_cd290ff8798b4902b1bdf62715465901
+    name: module
+    value: terminal
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1716924955306.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
